@@ -18,33 +18,21 @@ class _Widget193State extends State<Widget193> {
         steps: [
           Step(
             isActive: _currentStep == 0,
-            title: const Text('Step 1'),
-            content: const Text(
-              'Information for step 1',
-              style: TextStyle(
-                color: Colors.redAccent,
-              ),
-            ),
+            title: const Text('Reunião Pública'),
+            content: const Text('Information for step 1',
+                style: TextStyle(color: Colors.redAccent)),
           ),
           Step(
             isActive: _currentStep == 1,
-            title: const Text('Step 2'),
-            content: const Text(
-              'Information for step 2',
-              style: TextStyle(
-                color: Colors.orangeAccent,
-              ),
-            ),
+            title: const Text('RVMC'),
+            content: const Text('Information for step 2',
+                style: TextStyle(color: Colors.orangeAccent)),
           ),
           Step(
             isActive: _currentStep == 2,
-            title: const Text('Step 3'),
-            content: const Text(
-              'Information for step 3',
-              style: TextStyle(
-                color: Colors.blue,
-              ),
-            ),
+            title: const Text('Campo'),
+            content: const Text('Information for step 3',
+                style: TextStyle(color: Colors.blue)),
           ),
         ],
         onStepTapped: (int newIndex) {

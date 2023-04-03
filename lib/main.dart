@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
-
 import 'every_widgets/about_dialog.dart';
+import 'every_widgets/about_list_tile.dart';
+import 'every_widgets/sliver_fixed_extent_list.dart';
+import 'every_widgets/stepper.dart';
+import 'every_widgets/switch_list_tile.dart';
+import 'every_widgets/tab_bar.dart';
 
 const Color darkBlue = Color(0xFF12202F);
 
@@ -18,11 +22,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Every Flutter Widget',
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Flutter Mapp'),
-        ),
+        appBar: AppBar(title: const Text('Flutter Mapp')),
         //! Just change the Widget001 for the Widget you want.
-        body: const Widget001(),
+        body: const Widget197(),
       ),
     );
   }
