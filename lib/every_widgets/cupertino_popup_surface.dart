@@ -20,7 +20,7 @@ class Widget060 extends StatelessWidget {
                     color: CupertinoColors.white,
                     alignment: Alignment.center,
                     width: double.infinity,
-                    height: 400,
+                    height: 200,
                     child: Center(
                       child: CupertinoButton(
                         child: const Text('Close'),

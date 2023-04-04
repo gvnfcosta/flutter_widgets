@@ -26,7 +26,7 @@ class MyClipper extends CustomClipper<Path> {
         size.width / 4,
         size.height - 40,
         size.width / 2,
-        size.height - 20,
+        size.height - 60,
       )
       ..quadraticBezierTo(
         3 / 4 * size.width,
